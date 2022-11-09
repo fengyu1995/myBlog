@@ -110,3 +110,9 @@ deploy:
   type: git
   repository: https://github.com/fengyu1995/fengyu1995.github.io.git
   branch: main
+#本地搜索系统
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
