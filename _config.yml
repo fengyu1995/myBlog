@@ -138,3 +138,17 @@ electric_clock:
   clock_css: https://npm.elemecdn.com/hexo-butterfly-clock/lib/clock.min.css
   clock_js: https://npm.elemecdn.com/hexo-butterfly-clock/lib/clock.min.js
   ip_api: https://pv.sohu.com/cityjson?ie=utf-8
+
+  #看板娘
+live2d:
+  enable: true
+  pluginModelPath: assets/
+  model:
+    use: live2d-widget-model-hibiki    #模板目录，在node_modules里,自己选择
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    show: false  #是否在手机进行显示
+
