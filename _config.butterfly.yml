@@ -883,7 +883,7 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
-    # - <link rel="stylesheet" href="/css/style.css">
+    - <link rel="stylesheet" href="/css/style.css">
   bottom:
     - <div class="aplayer no-destroy" data-id="3136952023" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false" muted data-lrctype="1"> </div>
     # - <script src="xxxx"></script>

@@ -1,3 +1,5 @@
-#footer {
-    background-color: rebeccapurple;
+.tag-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
