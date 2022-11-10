@@ -10,7 +10,7 @@ menu:
   清单||fas fa-list:
     音乐: /music/ || fas fa-music
     电影小丑拉片: /movies/ || fas fa-video
-  友链: /link/ || fas fa-link
+  网站链接: /link/ || fas fa-link
   # 关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
@@ -28,7 +28,7 @@ code_word_wrap: true
 copy:
   enable: true
   copyright:
-    enable: false
+    enable: true
     limit_count: 50
 
 # social settings (社交圖標設置)
@@ -190,9 +190,9 @@ toc:
   style_simple: false # for post
 
 post_copyright:
-  enable: false
+  enable: true
   decode: false
-  author_href:
+  author_href: https://fengyu1995.github.io/
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
