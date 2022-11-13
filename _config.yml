@@ -143,24 +143,16 @@ electric_clock:
 
 
 
-  #看板娘
-live2d:
-  enable: true
-  pluginModelPath: assets/
-  model:
-    use: live2d-widget-model-hibiki    #模板目录，在node_modules里,自己选择
-  display:
-    position: right
-    width: 150
-    height: 300
-  mobile:
-    show: false  #是否在手机进行显示
-
-bangumi:
-  enable: true 
-  vmid: 482959497 
-  title: '追番列表'
-  quote: '生命不息，追番不止！'
-  show: 1
-  loading: '/img/bangumi-loading.gif'
+#   #看板娘
+# live2d:
+#   enable: true
+#   pluginModelPath: assets/
+#   model:
+#     use: live2d-widget-model-hibiki    #模板目录，在node_modules里,自己选择
+#   display:
+#     position: right
+#     width: 150
+#     height: 300
+#   mobile:
+#     show: false  #是否在手机进行显示
 
